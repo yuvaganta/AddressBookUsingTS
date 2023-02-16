@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>task6</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Amiko"
+      rel="stylesheet"
+    />
+    <script>
+      var exports = {};
+    </script>
+    <script>
+      var imports = {};
+    </script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <h1 class="heading">Address Book</h1>
+    <nav>
+      <div class="navigation">
+        <div class="navlinks">
+          <div class="navigationitem">HOME</div>
+          <div class="navigationitem">
+            <a href="#" id="addlink">+ADD</a>
+          </div>
+        </div>
+        <div class="blogimage"><img src="images/blog-icon.png" /></div>
+      </div>
+    </nav>
+    <section class="contactsection">
+      <div>
+        <h3>Contacts</h3>
+        <div class="contactul"><ul class="contact" id="contactBook"></ul></div>
+      </div>
+      <div class="displayDetails">
+        <div>
+          <span id="nameOfContact"></span>
+          <img id="editimage" src="images/edit1.jpg" />
+          <a class="viewbtns" id="editlink">Edit</a>
+          <img id="deleteimage" src="images/delete1.png" />
+          <a class="viewbtns" id="deletelink">Delete</a>
+        </div>
+        <div class="details">
+          <div>
+            <p>
+              <span class="subheads">Email:</span>
+              <span id="emailOfContact"></span>
+            </p>
+          </div>
+          <div>
+            <p>
+              <span class="subheads">Mobile: </span
+              ><span id="mobileOfContact"></span>
+            </p>
+          </div>
+          <div>
+            <p>
+              <span class="subheads">Landline:</span>
+              <span id="landlineOfContact"></span>
+            </p>
+          </div>
+          <div>
+            <p>
+              <span class="subheads">Website:</span>
+              <span id="websiteOfContact"></span>
+            </p>
+          </div>
+          <div>
+            <p>
+              <span class="subheads">Address:</span>
+              <span id="addressOfContact"></span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="addingDetails">
+        <form id="addingDetailsForm">
+          <div><label>Name</label><span class="star">*</span></div>
+          <div><input type="text" id="addName" class="inbox" /></div>
+          <div class="warnings" id="nameWarning"></div>
+          <div><label>Email</label></div>
+          <div><input type="text" id="addEmail" class="inbox" /></div>
+          <div class="warnings" id="emailWarning"></div>
+          <div>
+            <label id="mobilelabel">Mobile<span class="star">*</span></label
+            ><label>LandLine</label>
+          </div>
+          <div>
+            <input type="number" id="addMobile" /><input
+              type="text"
+              id="addLandline"
+            />
+          </div>
+          <div class="warnings" id="mobileWarning"></div>
+          <div><label>Website</label></div>
+          <div><input type="text" class="inbox" id="addWebsite" /></div>
+          <div class="warnings" id="websiteWarning"></div>
+          <div><label>Address</label></div>
+          <div><textarea id="addAddress"></textarea></div>
+          <div class="buttondiv">
+            <button class="formbutton" id="addButton">Add</button>
+            <button class="formbutton" id="editButton">Edit</button>
+            <button id="cancelButton">Cancel</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <script src="js/services.js" type="module"></script>
+    <script src="js/models.js" type="module"></script>
+    <script src="js/index.js" type="module"></script>
+  </body>
+</html>

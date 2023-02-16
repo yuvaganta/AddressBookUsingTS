@@ -1,0 +1,189 @@
+.heading{
+    color: white;
+    font-family:'Century Gothic';
+    font-size:52px;
+    font-weight:lighter;
+    background: rgb(51,153,204);
+    height: 71px;
+    padding-top: 32px;
+    padding-bottom: 20px;
+    padding-left:33px;
+    text-size-adjust:auto;
+    margin:0;
+    margin-top:0;
+  }
+  .navigation{
+    margin-top: 0px;
+    background-color:black;
+    opacity: 0.8;
+    display:flex;
+    height: 37px;
+    align-items: center;
+    padding-left:24px;
+    justify-content:space-between;
+  }
+  .navigation > div{
+    color: white;
+    padding: 0px 15px;
+    font-size: 16px;
+    padding-top:8px;
+    padding-bottom: 8px;
+    font-family: Arial;
+    font-weight:lighter;
+    font-weight: bold;
+  }
+  .navlinks{
+    display: flex;
+    gap:32px;
+    margin-left: 0px;
+    cursor: pointer;
+
+  }
+  .navlinks > div{
+    padding: 9px;
+  }
+  .navlinks > div:hover{
+    background-color: #f89502;
+    cursor: pointer;
+  } 
+  #addlink{
+    color: white;
+    text-decoration: none;
+  }
+  .blogimage{
+    margin-top:3px;
+    margin-right: 0px;
+  }
+  h3{
+    margin-left: 10px;
+  }
+  .viewbtns{
+    padding-right: 30px;
+    padding-left: 0px;
+    cursor: pointer;
+
+  }
+  #deleteimage{
+    position: relative;
+    bottom:-3px;
+  }
+  #editimage{
+    position: relative;
+    bottom:-3px;
+  }
+  .contactsection{
+    display: flex;
+    gap: 120px;
+    font-family: Ebrima;
+    margin-bottom: 0px;
+    color:rgba(0,0,0,0.95);
+    position: absolute;
+    z-index: -2;
+  }
+  .eachContact{
+    border: 1px groove gray;
+    width: 400px;
+    height: 150px;
+    margin-left: 10px;
+    padding-left: 10px;
+    
+  }
+  .Name{
+    font-size:24px;
+    padding-bottom: 0;
+  }
+  .email{
+    padding-top: 0;
+  }
+  .star{
+    color: red;
+  }
+  .eachContact:hover{
+    background-color: rgb(206,231,242);
+    cursor: pointer;
+  }
+  #nameOfContact{
+    font-size: 30px;
+    padding-right: 100px;
+  }
+  .displayDetails{
+    margin-top: 80px;
+  }
+  #editimage{
+    height: 15px;
+  }
+  .addingDetails{
+    
+    margin-top: 76px;
+  }
+  .inbox{
+    width:690px;
+    height: 25px;
+    
+  }
+  .contact {
+    list-style-type: none;
+ 
+}
+.contactul{
+  overflow-x: hidden; 
+  overflow-y: visible;
+  height: 500px;
+}
+  #addMobile,#addLandline{
+    width:332px;
+    height: 25px;
+    
+  }
+  #addLandline{
+    margin-left: 14px;
+  }
+  #mobilelabel{
+    padding-right: 292px;
+  }
+  textarea{
+    width:690px;
+    height: 50px;
+  }
+  #addingDetailsForm{
+    border: 2px solid gray;
+    width: 700px;
+    padding: 80px ;
+    padding-top: 50px;
+    padding-bottom: 28px;
+    font-weight: bold;
+  }
+  .formbutton{
+    background-color: rgb(51,153,204);
+    color: White;
+    border: 2px solid rgb(51,153,204);
+    margin-left: 536px;
+    width: 70px;
+    height: 25px;
+    margin-top:5px;
+    cursor: pointer;
+
+  }
+  #cancelButton{
+    background-color: rgb(51,153,204);
+    color: White;
+    border: 2px solid rgb(51,153,204);
+    margin-top:5px;
+    cursor: pointer;
+    width: 70px;
+    height: 25px;
+  }
+  .subheads{
+    font-weight: bold;
+  }
+  .buttondiv{
+    display: flex;
+    gap:20px;
+  }
+  .warnings{
+    color:red;
+    margin-bottom: 15px;
+    font-size: 13px;
+    font-weight: light;
+  }
+  
